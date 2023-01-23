@@ -36,4 +36,5 @@ Cześć! Nazywam się Ania i postanowiłam wziąć udział w projekcie żeby dow
    **Po co piszemy test case'y?**
    
    Uważam, że piszemy przypadki testowe w celu usystematyzowania naszej pracy. Widząc przygotowany przez nas test case, inny tester może postępować zgodnie z instrukcjami i przeprowadzić test. Dzięki test case'om możemy być pewni, że każdy test będzie przygotowany w ten sam sposób oraz sprawdzić jakie są oczekiwane rezultaty.
-
+## Subtask 4
+https://docs.google.com/spreadsheets/d/13AvTZHPUZB0LJtrLYVHj0qyKZV1nVi8n0ZVp4iLLjeg/edit?usp=sharing
