@@ -26,4 +26,14 @@ Cześć! Nazywam się Ania i postanowiłam wziąć udział w projekcie żeby dow
    ![image](https://user-images.githubusercontent.com/122388964/212731525-3a6342ac-7b48-48da-a012-577ce5bd0bcf.png)
      * na stronie głównej link "Wróć do raportu" w polu "Niezapisany mecz" nie działa; w DevTools pojawia się poniższy błąd:
    ![image](https://user-images.githubusercontent.com/122388964/212730994-41b28e2e-2e6b-4d21-8852-609e242be39c.png)
+   
+   # Task 2
+   ## Subtask 1
+   https://docs.google.com/spreadsheets/d/1keXRuWVqGCo2SdvVVEflmbq8yQtR3toCkysqf5P-JM8/edit?usp=sharing
+   ## Subtask 2
+   https://docs.google.com/spreadsheets/d/1c8rf0i5nKH54h1kjnUt9ije0AIYEWUfWXuAGjU4WrK0/edit?usp=sharing
+   ## Subtask 3
+   **Po co piszemy test case'y?**
+   
+   Uważam, że piszemy przypadki testowe w celu usystematyzowania naszej pracy. Widząc przygotowany przez nas test case, inny tester może postępować zgodnie z instrukcjami i przeprowadzić test. Dzięki test case'om możemy być pewni, że każdy test będzie przygotowany w ten sam sposób oraz sprawdzić jakie są oczekiwane rezultaty.
 
