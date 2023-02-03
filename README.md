@@ -45,3 +45,26 @@ https://docs.google.com/spreadsheets/d/13AvTZHPUZB0LJtrLYVHj0qyKZV1nVi8n0ZVp4iLL
  
  ## Subtask 3
  https://docs.google.com/document/d/1_mSgTB-UuMUhViiBT-GMvgbn2fkMf6leX1a0Qy9d9Uo/edit?usp=share_link
+ 
+ # **Task 3**
+ ## Subtask 1 i 2
+ ## Subtask 3
+ **Do czego służy ta aplikacja?**
+ 1. Do czego służy ta aplikacja? Jaki jest cel tej aplikacji?
+ 
+ Aplikacja OLX służy do publikowania ofert sprzedaży, wymiany, oddania różnych produktów i usług oraz umożliwia zakup tych usłu i produktów poprzez kontakt ogłoszeniodawcy z użytkownikiem.
+ 2. Kto ma być użytkownikiem końcowym aplikacji?
+ 
+ Użytkownikami aplikacji są osoby które chcą sprzedać, oddać zaminieć produkty lub usługi oraz osoby które tych produktów lub usług poszukują.
+ 
+ 3. Czy według Ciebie aplikacja jest user friendly?
+ 
+ Uważam, że aplikacja jest przyjazna dla użytkownika. Szczególnie przydatne są duże przyciski z nazwami kategorii wyszukiwania oraz różne możliwości filtrowania i sortowania wyników.
+ 
+ 4. Jak byś usprawnił aplikację? Co byś w niej poprawił. Czy masz jakiś pomysł na dodatkową funkcjonalność?
+ 
+ Nie znalazłam w aplikacji opcji zmiany języka na angielski, co według mnie jest dużym minusem. Myślę również, że przydatną opcją przynajmniej w niektórych kategoriach byłaby możliwość bezpośredniego zakupu przedmiotów bez konieczności kontaktu ze sprzedawcą (tak jak w przypadku Allegro).
+ 
+ 5. Jakie dostrzegasz różnice pomiędzy testowaniem aplikacji internetowej, a natywnej?
+ 
+ Myślę, że bardzo ważnym czynnikiem jest wygląd aplikacji i sprawdzenie czy konwersja z wersji komputerowej na mobilną przebiegła pomyślnie, czy wszystkie przyciski i opcje są dobrze widoczne.
