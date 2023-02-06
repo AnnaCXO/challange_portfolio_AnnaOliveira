@@ -55,9 +55,10 @@ https://docs.google.com/spreadsheets/d/13AvTZHPUZB0LJtrLYVHj0qyKZV1nVi8n0ZVp4iLL
  1. Do czego służy ta aplikacja? Jaki jest cel tej aplikacji?
  
  Aplikacja OLX służy do publikowania ofert sprzedaży, wymiany, oddania różnych produktów i usług oraz umożliwia zakup tych usłu i produktów poprzez kontakt ogłoszeniodawcy z użytkownikiem.
+ 
  2. Kto ma być użytkownikiem końcowym aplikacji?
  
- Użytkownikami aplikacji są osoby które chcą sprzedać, oddać zaminieć produkty lub usługi oraz osoby które tych produktów lub usług poszukują.
+ Użytkownikami aplikacji są osoby które chcą sprzedać, oddać zamienić produkty lub usługi oraz osoby które tych produktów lub usług poszukują.
  
  3. Czy według Ciebie aplikacja jest user friendly?
  
@@ -69,7 +70,7 @@ https://docs.google.com/spreadsheets/d/13AvTZHPUZB0LJtrLYVHj0qyKZV1nVi8n0ZVp4iLL
  
  5. Jakie dostrzegasz różnice pomiędzy testowaniem aplikacji internetowej, a natywnej?
  
- Myślę, że bardzo ważnym czynnikiem jest wygląd aplikacji i sprawdzenie czy konwersja z wersji komputerowej na mobilną przebiegła pomyślnie, czy wszystkie przyciski i opcje są dobrze widoczne.
+ Myślę, że bardzo ważnym czynnikiem jest wygląd aplikacji i sprawdzenie czy konwersja z wersji komputerowej na mobilną przebiegła pomyślnie, czy wszystkie przyciski i opcje są dobrze widoczne. W aplikacji natywnej istotne jest sprawdzić czy jest ona dopasowana do różnej wielkości ekranów. Ważne jest również aby przetestować czy wszystkie przyciski można łatwo wybrać za pomocą palce, który jest mniej precyzyjny niż kursor myszki. Dużą róznicą w testowaniu aplikacji jest także to, że w aplikacji internetowej łatwiej jest sprawdzić kod i wyłapać w nim na bieżąco błędy w trakcie wykonywania test casów. W przypadku testowania aplikacji natywnych nie ma takiej możliwości.
 
 ## Subtask 4
 https://wannai.atlassian.net/jira/software/projects/DIT/boards/2
