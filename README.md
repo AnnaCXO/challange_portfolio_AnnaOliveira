@@ -95,4 +95,9 @@ https://wannai.atlassian.net/browse/DIT-12?atlOrigin=eyJpIjoiYjc0OWQ3MzYyNzExNGJ
   FROM nazwa tabeli
   
   WHERE nazwa kolumny =<> BETWEEN - filtrowanie danych
+  
+* SELECT COUNT, SELECT SUM, SELECT MIN - funkcje agregujące zliczające ilość, sumę, liczbę minimalną
+* SELECT *
+FROM nazwa tabeli
+JOIN nazwa tabeli - łączenie tabeli
 
