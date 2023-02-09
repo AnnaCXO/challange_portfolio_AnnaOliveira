@@ -84,4 +84,15 @@ https://wannai.atlassian.net/browse/DIT-12?atlOrigin=eyJpIjoiYjc0OWQ3MzYyNzExNGJ
 ## Subtask 1
 * SELECT GETDATE() - wyświetla aktualną datę
 * SELECT @@version - wyświetla wersję oprogramowania
+* SELECT TOP () - wyświetla pierwsze wartości
+* SELECT * FROM nazwa tabeli - wyświetla zawartość całej tabeli
+* SELECT nazwy kolumn FROM nazwa tabeli- wyświetla wybrane kolumny z tabeli
+* CREATE TABLE nazwa (id int) - tworzy nową tabelę
+* ORDER BY nazwa kolumny - sortuje dane w tabeli według danej kolumny
+* ORDER BY nazwa kolumny DESC - sortuje dane w tabeli malejąco według danej kolumny
+* SELECT nazwy kolumn
+
+  FROM nazwa tabeli
+  
+  WHERE nazwa kolumny =<> BETWEEN - filtrowanie danych
 
