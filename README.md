@@ -82,6 +82,6 @@ https://wannai.atlassian.net/browse/DIT-12?atlOrigin=eyJpIjoiYjc0OWQ3MzYyNzExNGJ
 
 # **Task 5**
 ## Subtask 1
-* SELECT GETDATE()
-* SELECT @@version
+* SELECT GETDATE() - wyświetla aktualną datę
+* SELECT @@version - wyświetla wersję oprogramowania
 
