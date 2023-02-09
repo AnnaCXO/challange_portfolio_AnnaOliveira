@@ -46,7 +46,7 @@ https://docs.google.com/spreadsheets/d/13AvTZHPUZB0LJtrLYVHj0qyKZV1nVi8n0ZVp4iLL
  ## Subtask 3
  https://docs.google.com/document/d/1_mSgTB-UuMUhViiBT-GMvgbn2fkMf6leX1a0Qy9d9Uo/edit?usp=share_link
  
- # **Task 3**
+ # **Task 4**
  ## Subtask 1 i 2
  https://docs.google.com/spreadsheets/d/1rEfvQtyQG8CO99SwYetzjPegZIBCsdyLLrtfu9OT8fc/edit?usp=share_link
  
@@ -79,4 +79,9 @@ https://wannai.atlassian.net/browse/DIT-12?atlOrigin=eyJpIjoiYjc0OWQ3MzYyNzExNGJ
 ![image](https://user-images.githubusercontent.com/122388964/216930754-5227f391-66ff-4256-9efe-8331fa87cf50.png)
 
 ![image](https://user-images.githubusercontent.com/122388964/216930816-713f2e9c-ba03-41bb-9886-9efaa607bdaa.png)
+
+# **Task 5**
+## Subtask 1
+* SELECT GETDATE()
+* SELECT @@version
 
