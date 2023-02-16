@@ -172,4 +172,9 @@ WHERE price > 9 AND movie_ID BETWEEN 2 AND 8
 
 ![image](https://user-images.githubusercontent.com/122388964/218060467-6079cf4a-3bbe-4d85-97f4-1fbde410b704.png)
 
+# **Task 6**
+## Subtask 1
+## Subtask 2
+8\15
+
 
