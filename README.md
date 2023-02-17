@@ -174,6 +174,57 @@ WHERE price > 9 AND movie_ID BETWEEN 2 AND 8
 
 # **Task 6**
 ## Subtask 1
+11. Popełniłam błąd wpisując nazwisko Ani Miler – wpisałam Muler. Znajdź i zastosuj funkcję, która poprawi mój karkołomny błąd
+
+UPDATE customers SET surname = 'Miler' WHERE surname = 'Muler'
+
+SELECT * FROM customers
+
+![image](https://user-images.githubusercontent.com/122388964/219615820-cc530a6e-d029-408a-bd99-8e106dcf8cef.png)
+
+12. Pobrałam za dużo pieniędzy od klienta, który kupił w ostatnim czasie film o id 4. Korzystając z funkcji join sprawdź, jak ma na imię klient i jakiego ma maila. W celu napisania mu wiadomości o pomyłce fantastycznej szefowej.
+
+SELECT sale.customer_id, movie_id,name, surname, email
+FROM customers, sale
+where customers.customer_id = sale.customer_id AND movie_id = 4
+
+![image](https://user-images.githubusercontent.com/122388964/219618550-78ce6e5f-91f5-4c99-a750-d4e93e417c92.png)
+
+13. Na pewno zauważył_ś, że sprzedawca zapomniał wpisać emaila klientce Patrycji. Uzupełnij ten brak wpisując: pati@mail.com
+
+UPDATE customers set email = 'pati@mail.com' WHERE name = 'Patrycja'
+
+SELECT * FROM customers
+
+![image](https://user-images.githubusercontent.com/122388964/219619365-ccee81e4-cf53-4a77-9ea0-8094f2a3154d.png)
+
+14. Dla każdego zakupu wyświetl, imię i nazwisko klienta, który dokonał wypożyczenia oraz tytuł wypożyczonego filmu. (wykorzystaj do tego funkcję inner join, zastanów się wcześniej, które tabele Ci się przydadzą do wykonania ćwiczenia).
+
+SELECT customers.name, customers.surname, movies.title
+FROM customers
+inner JOIN sale
+ON customers.customer_id = sale.customer_id
+inner JOIN movies
+ON movies.movie_id = sale.movie_id
+
+![image](https://user-images.githubusercontent.com/122388964/219622807-8c711171-67ce-4fc3-bd37-767510bf1da5.png)
+
+15. W celu anonimizacji danych, chcesz stworzyć pseudonimy swoich klientów. - Dodaj kolumnę o nazwie ‘pseudonym’ do tabeli customer,- Wypełnij kolumnę w taki sposób, aby pseudonim stworzył się z dwóch pierwszych liter imienia i ostatniej litery nazwiska. Np. Natalie Pilling → Nag
+
+ALTER TABLE customers ADD COLUMN pseudonym char(1)
+
+UPDATE customers SET pseudonym = 'Olb' WHERE customer_id = '1'
+
+UPDATE customers SET pseudonym = 'Kan' WHERE customer_id = '2'
+
+UPDATE customers SET pseudonym = 'Anm' WHERE customer_id = '3'
+
+UPDATE customers SET pseudonym = 'Pak' WHERE customer_id = '4'
+
+UPDATE customers SET pseudonym = 'Mag' WHERE customer_id = '5'
+
+UPDATE customers SET pseudonym = 'Nap' WHERE customer_id = '6'
+
 ## Subtask 2
 8\15
 
