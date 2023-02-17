@@ -211,7 +211,7 @@ ON movies.movie_id = sale.movie_id
 
 15. W celu anonimizacji danych, chcesz stworzyć pseudonimy swoich klientów. - Dodaj kolumnę o nazwie ‘pseudonym’ do tabeli customer,- Wypełnij kolumnę w taki sposób, aby pseudonim stworzył się z dwóch pierwszych liter imienia i ostatniej litery nazwiska. Np. Natalie Pilling → Nag
 
-ALTER TABLE customers ADD COLUMN pseudonym char(1)
+ALTER TABLE customers ADD COLUMN pseudonym varchar(10)
 
 UPDATE customers SET pseudonym = 'Olb' WHERE customer_id = '1'
 
@@ -224,6 +224,12 @@ UPDATE customers SET pseudonym = 'Pak' WHERE customer_id = '4'
 UPDATE customers SET pseudonym = 'Mag' WHERE customer_id = '5'
 
 UPDATE customers SET pseudonym = 'Nap' WHERE customer_id = '6'
+
+SELECT * FROM customers
+
+![image](https://user-images.githubusercontent.com/122388964/219634494-1e4b1edc-6081-43cc-bd9f-457e532d2856.png)
+
+16. Wyświetl tytuły filmów, które zostały zakupione, wyświetl tabelę w taki sposób, aby tytuły się nie powtarzały.
 
 ## Subtask 2
 8\15
