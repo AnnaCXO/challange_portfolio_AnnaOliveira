@@ -231,6 +231,13 @@ SELECT * FROM customers
 
 16. Wyświetl tytuły filmów, które zostały zakupione, wyświetl tabelę w taki sposób, aby tytuły się nie powtarzały.
 
+SELECT DISTINCT movies.title
+from sale, movies
+WHERE movies.movie_id = sale.movie_id
+
+![image](https://user-images.githubusercontent.com/122388964/219651015-fa6c113b-f804-4a8d-b833-6419df598f74.png)
+
+
 ## Subtask 2
 8\15
 
