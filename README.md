@@ -213,17 +213,7 @@ ON movies.movie_id = sale.movie_id
 
 ALTER TABLE customers ADD COLUMN pseudonym varchar(10)
 
-UPDATE customers SET pseudonym = 'Olb' WHERE customer_id = '1'
-
-UPDATE customers SET pseudonym = 'Kan' WHERE customer_id = '2'
-
-UPDATE customers SET pseudonym = 'Anm' WHERE customer_id = '3'
-
-UPDATE customers SET pseudonym = 'Pak' WHERE customer_id = '4'
-
-UPDATE customers SET pseudonym = 'Mag' WHERE customer_id = '5'
-
-UPDATE customers SET pseudonym = 'Nap' WHERE customer_id = '6'
+UPDATE customers SET pseudonym = concat(LEFT(name,2) + (RIGHT(surname,1))
 
 SELECT * FROM customers
 
